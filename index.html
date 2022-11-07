@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Articles-Cards-images.css">
     <link rel="stylesheet" href="assets/css/DA_Whatsapp.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
     <link rel="stylesheet" href="assets/css/Page-Loader.css">
@@ -47,6 +47,14 @@
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
 </script>
+
+<script>
+window.onload = function()
+// Para internet Explorer
+{document.onselectstart = function(){return false;} 
+// Para Firefox
+document.onmousedown = function(){return false;}}
+</script>
 </head>
 
 <body>
@@ -62,7 +70,7 @@
                 </ul><a class="btn btn-primary ms-md-2" role="button" href="#contactar" style="background: rgb(218,27,40);border-style: none;"><strong>CONTACTAR</strong></a>
                 <ul class="navbar-nav d-none d-md-flex align-items-start ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="https://adkzl.page.link/instagram"><i class="fab fa-instagram" style="font-size: 30px;color: #da1b28;"></i></a></li>
-                    <li class="nav-item"><a class="nav-link active"><i class="fab fa-facebook" style="font-size: 30px;color: rgb(218,27,40);"></i></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://adkzl.page.link/facebook"><i class="fab fa-facebook" style="font-size: 30px;color: rgb(218,27,40);"></i></a></li>
                     <li class="nav-item"><a class="nav-link active"><i class="fab fa-youtube" style="font-size: 30px;color: rgb(218,27,40);"></i></a></li>
                 </ul>
                 <div class="d-flex d-md-none d-lg-none d-xl-none d-xxl-none justify-content-center align-items-center" style="margin-top: 20px;height: 100%;width: 100%;"><a class="active d-flex justify-content-center" style="width: 100%;color: rgba(13,110,253,0);"><i class="fab fa-instagram" style="font-size: 30px;color: #da1b28;"></i></a><a class="active d-flex justify-content-center" style="width: 100%;color: rgba(13,110,253,0);"><i class="fab fa-facebook" style="font-size: 30px;color: rgb(218,27,40);"></i></a><a class="active d-flex justify-content-center" style="width: 100%;color: rgba(13,110,253,0);"><i class="fab fa-youtube" style="font-size: 30px;color: rgb(218,27,40);"></i></a></div>
@@ -583,9 +591,9 @@
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
     <script src="assets/js/Page-Loader.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
